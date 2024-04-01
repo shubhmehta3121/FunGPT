@@ -76,7 +76,7 @@ def main():
     print("Translated Text:", eng_text)
 
     # Generate response using Gemini API
-    gpt_response = generate_text(api_key="AIzaSyC4EK-dtFyNJIdg3BxsIXGCEXc3__XESYI", prompt=eng_text)  # Replace with your API key
+    gpt_response = generate_text(api_key="YOUR_API_KEY", prompt=eng_text)  # Replace with your API key
     print("GPT Response:", gpt_response)
 
     # Remove punctuation from response
